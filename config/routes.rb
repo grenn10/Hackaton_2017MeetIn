@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   post '/create' => 'meeting#create'
   get '/show' => 'meeting#show'
+  get '/main' => 'meeting#main'
+  get '/result' => 'meeting#result'
   
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

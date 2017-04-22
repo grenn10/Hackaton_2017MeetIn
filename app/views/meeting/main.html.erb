@@ -5,17 +5,17 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html"><i class="fa fa-sun-o"></i> Helios<strong></strong></a> </div>
+      <a class="navbar-brand" href="/main"><i class="fa fa-sun-o"></i> 미트인<strong></strong></a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><a href="#home" class="page-scroll">홈</a></li>
         <!--<li><a href="#services-section" class="page-scroll">Services</a></li>-->
-        <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
+        <li><a href="#works-section" class="page-scroll">나의 미팅 대상은?</a></li>
         <!--<li><a href="#about-section" class="page-scroll">About</a></li>-->
-        <li><a href="#team-section" class="page-scroll">Team</a></li>
-        <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+        <li><a href="#team-section" class="page-scroll">팀</a></li>
+        <li><a href="#contact-section" class="page-scroll">지원하기</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -26,9 +26,9 @@
 <!-- Header -->
 <header class="text-center" name="home">
   <div class="intro-text">
-    <h1>신촌의 <strong>인연</strong></h1>
-    <p>당신의 인연을 주변에서 찾아보세요!</p>
-    <a href="#services-section" class="btn-default btn-lg page-scroll">지원하기</a> </div>
+    <p style="font-size:100px"><strong>Meet人</strong><p>
+    <p>미트인에서 비트윈으로!</p>
+    <a href="#contact-section" class="btn-default btn-lg page-scroll">지원하기</a> </div>
 </header>
 
 <!-- Services Section -->
@@ -75,7 +75,7 @@
       <ul class="cat">
         <li>
           <ol class="type">
-            <li><a href="#" data-filter="*" class="active">전체</a></li>
+            <!--<li><a href="#" data-filter="*" class="active">전체</a></li>-->
             <!--<li><a href="#" data-filter=".web">문과</a></li>-->
             <!--<li><a href="#" data-filter=".app">이과</a></li>-->
             <!--<li><a href="#" data-filter=".branding">예체능</a></li>-->
@@ -236,7 +236,7 @@
     <div class="section-title center">
       <h2>명예의 전당</h2>
       <hr>
-      <p>이번주 가장 인기 있는 회원을 소개합니다</p>
+      <p>자랑스러운 미트인 개발자를 소개합니다!</p>
     </div>
     <div id="row">
       <div class="col-md-3 col-sm-6 team">
@@ -298,7 +298,7 @@
       <!--<div class="col-md-4"> <i class="fa fa-phone"></i>-->
       <!--  <p> 010.1234.2424</p>-->
       <!--</div>-->
-      <hr>
+  <hr>
       <div class="clearfix"></div>
     </div>
     <div class="col-md-4 col-md-offset-4">
@@ -311,13 +311,13 @@
               <p class="help-block text-danger"></p>
             </div>
           </div>
-          <div class="col-md-12 ">
+          <div class="col-md-12">
             <div class="form-group">
               <input type="text" name="school" id="text" class="form-control" placeholder="학교" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="form-group">
               <input type="text" name="major" id="text" class="form-control" placeholder="학과" required="required">
               <p class="help-block text-danger"></p>
@@ -328,11 +328,12 @@
             <!--  <input type="number" name="schoolnumber" id="text" class="form-control" placeholder="학번" required="required">-->
             <!--  <p class="help-block text-danger"></p>-->
             <!--</div>-->
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="intro" id="message" class="form-control" rows="4" placeholder="20자 자기소개" required></textarea>
-          <p class="help-block text-danger"></p>
+        
+        <div class= "col-md-12">
+            <div class="form-group">
+              <textarea name="intro" id="message" class="form-control" rows="4" placeholder="20자 자기소개" required></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
         </div>
         <div id="success"></div>
         <button type="submit" class="btn btn-default">신청하기</button>
